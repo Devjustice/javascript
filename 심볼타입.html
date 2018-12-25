@@ -1,0 +1,18 @@
+<!Doctype HTML5>
+<meta charset="utf-8">
+<head><title>JavaScript DataType</title></head>
+<body>
+<h1>
+심볼타입
+</h1>
+<p id ="result"></p>
+<script>
+const sym = Symbol("javascript");
+const symObj = Object(sym);
+	document.getElementById("result").innerHTML = 
+			(typeof sym) + "<br>" + (typeof symObj);
+</script>
+
+
+
+</body>
