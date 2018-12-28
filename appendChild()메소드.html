@@ -1,0 +1,27 @@
+<!doctype html>
+<meta charset="UTF-8">
+<head>
+<title>javascript node manage</title>
+</head>
+
+<body>
+<h1>appendChild()메소드</h1>
+<h2 id="item">javascript</h2>
+<div id="list">
+<p>html</p>
+<p>css</p>
+<p>jquery</p>
+</div>
+<button onclick="appendNode()">노드추가</button>
+<script>
+function appendNode(){
+var parent=document.getElementById("list");
+var newItem=document.getElementById("item");
+parent.appendChild(newItem);
+}
+
+<!--appendChild() 메소드appendChild() 메소드는새로운 노드를 해당 노드의 자식 노드 리스트(child node list)의 맨 마지막에 추가합니다. -->
+
+
+</script>
+</body>
